@@ -68,7 +68,6 @@ namespace AspNetCoreRateLimitDemo
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "AspNetCoreRateLimitDemo v1"));
             }
 
-
             app.UseRouting();
 
             app.UseAuthorization();
